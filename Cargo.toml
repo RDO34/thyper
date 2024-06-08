@@ -1,6 +1,6 @@
 [package]
 name = "thyper"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ross Donohoe <rossdon.95@googlemail.com>"]
 repository = "https://github.com/RDO34/thyper"
 edition = "2021"
