@@ -59,8 +59,6 @@ pub fn render(app: &app::App, frame: &mut Frame) {
         Paragraph::new(text_lines),
         centered_rect(area, 80, 20)
     );
-
-    frame.render_widget(Paragraph::new(vec![format!("width = {}, available_width = {}", area.width, available_width).into()]), centered_rect(area, 100, 100));
 }
 
 pub fn handle_keypress(app: &mut app::App, key_code: KeyCode) {
